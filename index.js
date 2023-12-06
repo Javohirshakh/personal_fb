@@ -51,6 +51,7 @@ bot.command("finish", (ctx) => {
       Markup.button.callback("S-1", "S1"),
       Markup.button.callback("Darvaza", "Darvaza"),
       Markup.button.callback("Muqimiy", "Muqimiy"),
+      Markup.button.callback("Yunusobod", "Yunusabad"),
     ]);
     ctx.reply("Iltimos, filialni tanlang:", branchs);
   } else {
