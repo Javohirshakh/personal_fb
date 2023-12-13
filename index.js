@@ -107,4 +107,9 @@ bot.on("text", (ctx) => {
   }
 });
 
-// bot.launch().then(console.log("Bot is here!"));
+bot.launch({
+  webhook: {
+    domain: 'https://myaddress.com',
+    port: 4000
+  }
+})
