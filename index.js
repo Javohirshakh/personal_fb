@@ -107,9 +107,4 @@ bot.on("text", (ctx) => {
   }
 });
 
-bot.launch({
-  webhook: {
-    domain: 'https://starlit-cheesecake-05b3bb.netlify.app',
-    port: 4000
-  }
-})
+bot.launch().then(console.log("bot is here"))
